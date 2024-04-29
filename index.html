@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charting the Course: An Interactive Exploration of the Value of Education</title>
+    <!-- Add any CSS stylesheets or libraries here -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        p {
+            text-align: justify;
+        }
+        iframe {
+            width: 100%;
+            height: 600px; /* Adjust height as needed */
+            border: none; /* Remove iframe border */
+        }
+    </style>
+</head>
+<body>
+    <div class="article-section">
+        <h1>Charting the Course: An Interactive Exploration of the Value of Education</h1>
+        <p>Imagine standing at the crossroads of education, where every signpost is a different major, pointing towards potential futures of wealth, opportunity, and growth. With rising tuition fees and student debt, the financial implications of choosing a major or college have never been more significant. But which paths lead to prosperity, and which to despair? In this explorable explainer, we’ll use Tableau to navigate the terrain of starting and mid-career salaries across majors, college types, and regions, determining the degrees that truly "pay back."</p>
+        <h3>Navigating Major Salaries</h3>
+        <p>Navigating the post-graduation economic landscape begins with understanding how different undergraduate majors can impact earning potential. We've created an interactive visualization tool that allows aspiring students and curious individuals to examine the potential financial outcomes associated with each major. With in our interactive bar chart, each major's journey from the starting block to mid-career highlights the variances across disciplines. You're provided with a clear picture of starting salaries and how they evolve. The added dimension of percent change from starting to mid-career salary offers a unique perspective on growth over time. Hover over each bar to unveil the specific figures tied to 'Starting Median Salary', 'Mid-Career Median Salary,' along with various percentiles that paint a comprehensive picture of each major's salary progression. With the dropdown menu, select a major and discover where it stands against the backdrop of wage growth.</p>
+        <h3>Top Ten Majors</h3>
+        <p>While earning potential should not be the sole determinant in choosing an academic path, it's undeniably a significant consideration. Our second chart zooms in on the top ten majors that have the highest starting median salaries. These majors set graduates on a trajectory potentially leading to financial success earlier in their careers compared to their peers. Charted clearly are the majors that take the lead in early earning power. See how these majors fare in the long run by toggling through the salary types – from the 10th to the 90th percentile. Gain perspective on not only the heights one can reach within these fields but also the disparities of income within them.</p>
+        <!-- Insert the visualization from field.html using an iframe -->
+        <iframe src="field.html"></iframe>
+    </div>
+    <!-- Add any JavaScript libraries or scripts here -->
+    <div class="article-section">
+        <h3>Regional Dynamics: Exploring Post-Graduate Earnings</h3>
+        <p>As students forge their educational paths, the crossroads of decision-making are frequently influenced by factors beyond academic interests. In an era where the economy's ebb and flow is as crucial as the tides, understanding the impact of regional dynamics on post-graduate earnings is invaluable.</p>
+        <p>Our current visualization steps beyond the confines of college majors to cast a wider net over the economic terrains of various regions. Each territory possesses its own economic pulse, with distinctive factors such as local industry strength, cost of living adjustments, and job market demand that collectively mold the potential earnings for graduates.</p>
+        <p>The visualization lays out an assorted array of circles across different regions, where each circle's diameter is proportionate to the corresponding median salaries. The larger the circle, the higher the median salary—a visual testament to potential prosperity and a barometer for a region's employment wealth.</p>
+        <h4>Regional Focus</h4>
+        <p>Hovering over the circles allows users to uncover details about each school, including its name, location, and precise median salary statistics. This immediate access to information enables a deeper understanding of how salary prospects vary dramatically across regions.</p>
+        <h4>Expand Your Horizon</h4>
+        <p>The horizontal scroll opens the door to a comprehensive look at a broad spectrum of regions. This feature is particularly beneficial for assessing salary trends and raises thought-provoking questions. Are coastal regions truly more generous in their salary offerings, or do the inland expanses hold hidden economic gems?</p>
+        <h4>Mapping Prosperity</h4>
+        <p>The visualization acts as a canvas, illustrating an economic map of graduate earnings. The patterns that emerge as we traverse from the bustling east to the entrepreneurial west, or from the industrial north down to the sun-kissed south, paint a picture of how regional economic vitality influences the financial return on educational endeavors.</p>
+        <h3>The Weight of a Diploma: Varies by Location?</h3>
+        <p>The interactivity within our visualization does not merely reveal disparities—it tells the story of varied opportunities and challenges faced by graduates across the country. Grasping such regional subtleties is essential for students when choosing a college, a major, or a post-graduation destination.
+            As we observe the panorama unfurl, it becomes apparent how regional economic health and educational value are entwined. In certain regions, a diploma's weight is gold, whereas, in others, its benefits are longer-term investments. The visualization underscores the adage that while all education carries value, the immediate economic benefits can be as diverse as the geography itself.
+            This analytical journey through data invites readers, students, and policymakers alike to consider a broader perspective when evaluating the return on investment in higher education. 
+            The interactive visualizations serve not only as a guide but as a foundation for strategic decisions that align with economic realities and personal aspirations.</p>
+        <iframe src="region.html"></iframe>
+    </div>
+    <div class="article-section">
+        <p>The financial voyage through higher education is influenced as much by the nature of the institution as it is by the chosen field of study. Different types of schools – 
+            be they liberal arts colleges, state universities, or technical institutes – 
+            impart unique values and opportunities which, in turn, reflect in the earning potential of their graduates. 
+            Hence, it becomes paramount to discern how the school type can sway the economic return of its educational offering.
+            In our visualization, we elucidate the nuanced relationship between school type and graduated income through an interactive line chart that connects various salary measures. 
+            The line chart serves as a confluence of data, weaving together the starting and mid-career salaries and extending to the respective percentiles that unveil 
+            the possible financial trajectory of alumni.
+            <h4>Colorful Insights:</h4> 
+            <p>Each salary measure is draped in a unique hue, unveiling the earnings tapestry that graduates from different institution types might experience. This polychromatic approach not only distinguishes between the different salary measures but also adds a layer of depth to our visual analysis.</p>
+            <h4>Diving into Data:</h4> 
+            <p>With data points linked by lines, viewers can traverse the economical silhouette carved by each school type. A simple hover over any part of the line reveals details about the school, the specific salary measure, and its value. This direct interaction beckons a closer look and an informed understanding of potential financial futures.</p>
+            <h4>Bridging Choices and Outcomes: </h4>
+            <p>The dropdown menu at the top empowers you to select a specific type of school, adjusting the chart to reflect the correlated demographic. Whether you are contemplating the intimate classrooms of a liberal arts college or the sprawling campuses of state universities, the chart dynamically reformulates to guide your contemplation.</p>
+            As you sift through the information, one pattern becomes clear – the variance in salary across school types is as much a narrative about the institutions as it is about the choices made by their students.The interactive line chart goes beyond merely reporting median salary figures. It widens the perspective to encompass the full scope of financial outcomes, spotlighting the 10th percentile as a cautionary baseline and the 90th percentile as aspirational peaks. This comprehensive portrayal ensures that the full spectrum of earnings is brought forth, rejecting the oversimplification that singular statistics often entail.
+            Choosing an educational institution is a decision pregnant with implications, financial and otherwise. Through our visualization, the potential monetary worth of an education from various types of schools is laid bare, inviting both introspection and analysis. This visual tool stands as a testament to the diversity of academic value, echoing the reality that the paths from education to affluence are manifold and as varied as the institutions themselves.
+            </p>
+        <iframe src="school_type.html"></iframe> 
+    </div>
+    <div class = "Conclusion">
+        
+        <p>We’ve traveled through a landscape shaped by degrees and dissected by dotted lines of income percentiles. 
+            The journey reveals that while your major can guide earnings, many detours and alternative routes come into play. 
+            Regional economic climates, institutional prestige, and personal dedication all factor into the lifelong trek through the world of work.</p>
+
+    </div>
+</body>
+</html>
